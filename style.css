@@ -2,13 +2,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: hsl(240, 57%, 81%);
+    background-color:rgb(45, 51, 63);
 }
 
 #myH1{
     font-size: 4rem;
     font-family: monospace;
-    color: hsl(236, 77%, 55%);
+    color: hsl(236, 47.30%, 82.20%);
 }
 
 #container{

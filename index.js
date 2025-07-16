@@ -17,15 +17,17 @@ function stop() {
     clearInterval(timer);
     elapsedTime = Date.now() - startTime;
     isRunning = false;
+    document.getElementById("startBtn").innerHTML = "Continue";
   }
 }
 
 function reset() {
-  clearInterval();
+  clearInterval(timer);
   startTime = 0;
   elapsedTime = 0;
   isRunning = false;
   display.textContent = "00:00:00:00";
+  document.getElementById("startBtn").innerHTML = "Start";
 }
 
 function update() {
